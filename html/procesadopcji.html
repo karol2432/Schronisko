@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="procesadopcji.css">
+    <title>Proces adopcyjny</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="waz.jpeg" alt="Schronisko dla Zwierząt">
+        <h1>Schronisko dla Zwierząt</h1>
+    </div>
+    <nav>
+        <ul>
+           
+            <li><a class="button1" href="darowizna.html">Podaruj</a></li>
+            <li><a class="button2" href="zglosprzemoc.html">Zgłoś przemoc</a></li>
+        </ul>
+    </nav>
+    
+</header>
+<nav class="secondary-nav">
+    <ul>
+        <li><a href="procesadopcji.html">Proces adopcyjny </a></li>
+        <li><a href="zwierzeta.html">Zwierzęta</a></li>
+        <li><a href="wolontariat.html">Wolontariat</a></li>
+        <li><a href="onas.html">O nas</a></li>
+        <li><a href="odwiedznas.html">Odwiedź nas</a></li>
+    </ul>
+</nav>
+
+<div class="photo-container">
+    <img src="procesadopcji1.jpg" style="width:100%" alt="zdjecie 1" class="photo" />
+    <div class="photo-text-container">
+        <h2 class="photo-text">Jak zaadoptować zwierzaka?</h2>
+</div>
+<div class="proces">
+    <ol>
+        <li>
+            <h2>Wypełnienie i przesłanie formularza adopcyjnego</h2>
+            <p>Na podstawie przesłanego formularza nasza kadra podejmuje decyzję o umówieniu się na spotkanie zapoznawcze ze zwierzęciem.</p>
+            <fieldset>
+                <div class="blok1">
+                    <h2>Dane osobowe</h2>
+                    <div>
+                        <label for="imie">Imię i nazwisko:</label>
+                        <input type="text" placeholder="Jan Kowalski" id="imie" name="imie" required>
+                    </div>
+                    <div>
+                        <label for="nazwisko">E-mail:</label>
+                        <input type="email" placeholder="jankowalski123@gmail.com" id="mail" name="mail" required>
+                    </div>
+                    <div>
+                        <label for="telefon">Teleon:</label>
+                        <input type="tel" placeholder="123456789" id="telefon" name="telefon" required>
+                    </div>
+                </div>
+                <div class="blok1">
+
+                    <h2>Czy masz ukończone 18 lat?</h2>
+                    <form id="myform">
+                        <label>
+                            <input type="radio" name="opcje" value="opcja1" > Tak
+                        </label><br>
+                        <label> 
+                            <input type="radio" name="opcje" value="opcja1" > Nie
+                        </label><br> 
+                    </form>
+                    <h2>Którego zwierzaka chcesz zaadoptować?</h2>
+                <form id="myform">
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" > Pandziak
+                    </label><br>
+    
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" > Babeczka
+                    </label><br>
+    
+                    <label> <!--radio pozwala na tylko jedno-->
+                        <input type="radio" name="opcje" value="opcja1" > Lukrecja
+                    </label><br>
+    
+                    <label> 
+                        <input type="radio" name="opcje" value="opcja1" > Schab
+                    </label><br>    
+                </form>
+                <h2>Aktualne zajęcie</h2>
+                <form id="myform">
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" > Student/Studentka
+                    </label><br>
+    
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" > Pracownik na pełen etat
+                    </label><br>
+    
+                    <label> <!--radio pozwala na tylko jedno-->
+                        <input type="radio" name="opcje" value="opcja1" > Emeryt/Emerytka
+                    </label><br>
+
+                    <label> 
+                        <input type="radio" name="opcje" value="opcja1" > Zajmowanie się domem
+                    </label><br>    
+                </form> 
+                
+                <h2>Czy posiada Pan/Pani jakieś zwierzęta w domu? Jeśli tak to ile?</h2>
+                <form id="myform">
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" > Nie
+                    </label><br>
+    
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" > 1
+                    </label><br>
+    
+                    <label> <!--radio pozwala na tylko jedno-->
+                        <input type="radio" name="opcje" value="opcja1" > 2
+                    </label><br>
+
+                    <label> 
+                        <input type="radio" name="opcje" value="opcja1" > 3 lub wieciej
+                    </label><br>    
+                </form> 
+
+                <h2>Czy ktoś w domu ma alergię na zwierzęta?</h2>
+                <form id="myform">
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" > Tak
+                    </label><br>
+    
+                    <label>
+                        <input type="radio" name="opcje" value="opcja1" >Nie
+                    </label><br>
+                </form>
+                </div>
+                <div class="blok1">
+                    <h3>Opowiedz o sobie, czemu chcesz danego danego zwierzaka oraz ile osób mieszka w twoim mieszkaniu i w jakim wieku</h3>
+                    <div>
+                        <textarea cols="30" rows="5" placeholder="Miejsce na twoją wiadomość..." required></textarea>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="reset" class="wyslij">Wyślij</button>
+                </div>
+            </fieldset>
+        </li>
+        <li>
+            <h2>Spotkanie zapoznawcze ze zwierzęciem</h2>
+            <p>Spotkanie zapoznawcze ze zwierzakiem w procesie adopcyjnym jest kluczowym krokiem. Pozwala przyszłym opiekunom na obserwację zachowań zwierzaka,
+                 co umożliwia decyzję o ewentualnej adopcji. To bezpośrednie doświadczenie pozwala zobaczyć, czy istnieje wzajemna chęć nawiązania relacji,
+                  wpływając na trafny wybór przyjęcia zwierzaka do nowego domu.</p>
+        </li>
+        <li>
+            <h2>Podpisanie umowy adopcyjnej</h2>
+            <p>Podpisanie umowy adopcyjnej w procesie adopcyjnym ma istotne znaczenie, gdyż nadaje temu procesowi wymiar prawny. Chroni dobrostan zwierzaka, precyzuje warunki opieki, gwarantuje prawa adopcyjne,
+                  a także zapewnia ramy dla ewentualnych sytuacji konfliktowych. Jest to istotny krok w zapewnieniu odpowiedzialnej i zabezpieczonej adopcji zwierzaka.
+                Uprzedzamy, że bez podpisania umowy adopcyjnej nie wydamy zwierzęcia pomimo spełnieniu dwóch poprzednich kroków</p>
+        </li>
+
+        <li>
+            <h2>No i gotowe! Zwierzak jest twój!!!</h2>
+            <img src="procesadopcji2.jpeg">
+        </li>
+       
+    </ol>
+</div>
+</body>
+</html>

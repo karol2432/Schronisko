@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="odwiedznas.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="waz.jpeg" alt="Schronisko dla Zwierząt">
+        <h1>Schronisko dla Zwierząt</h1>
+    </div>
+    <nav>
+        <ul>
+           
+            <li><a class="button1" href="darowizna.html">Podaruj</a></li>
+            <li><a class="button2" href="zglosprzemoc.html">Zgłoś przemoc</a></li>
+        </ul>
+    </nav>
+</header>
+
+<nav class="secondary-nav">
+    <ul>
+        <li><a href="procesadopcji.html">Proces adopcyjny </a></li>
+        <li><a href="zwierzeta.html">Zwierzęta</a></li>
+        <li><a href="wolontariat.html">Wolontariat</a></li>
+        <li><a href="onas.html">O nas</a></li>
+        <li><a href="odwiedznas.html">Odwiedź nas</a></li>
+    </ul>
+</nav>
+
+
+
+
+
+<h2> Tutaj nas znajdziesz: </h2>
+<div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20489.679029736253!2d19.94290192644852!3d50.0636309694264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b11f53a5077%3A0xdd371e3071dcbf32!2sBazylika%20Mariacka!5e0!3m2!1spl!2spl!4v1703319986151!5m2!1spl!2spl" width="1000" height="450" style="border-width:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class = "content">
+<div class = "info">
+    <h3> Kontakt:</h3>
+    <br>
+    <p> Kierownik schroniska: <strong> +48 504444392 </strong> </p>
+    <p> Recepcja: <strong> +48 603213440</strong></p>
+    <p> Numer alarmowy: <strong> +48 601221980</strong> oraz numer do straży miejskiej <strong> 986 </strong> </p>
+    <p> Nasz weterynarz: <strong> +48 700321574 </strong></p>
+    <p> Adres e-mail: <strong>schronisko@gmail.com</strong> </p>
+    <br>
+    <p> Adres: plac Mariacki 5, 31-042 Kraków, Małopolska </p>
+    <br> <br>
+    <h3> Godziny otwarcia: </h3>
+    <p> Poniedziałek  10-17 </p>
+    <p> Wtorek  10-17 </p>
+    <p> Środa  10-17 </p>
+    <p> Czwartek  10-17 </p>
+    <p> Piątek  10-17 </p>
+    <p> Sobota  10-17 </p>
+    <p> Niedziela  12-16 </p>
+</div>
+
+<form action="">
+    <h4> Odezwiemy się do ciebie</h4>
+    <fieldset>
+        <div class="blok1">
+            <a>Dane osobowe</a>
+            <div>
+                <label for="imie">Imię:</label>
+                <input type="text" id="imie" name="imie" required>
+            </div>
+            <div>
+                <label for="nazwisko">Nazwisko:</label>
+                <input type="text" id="nazwisko" name="nazwisko" required>
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="mail" required>
+            </div>
+            <div>
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon" required>
+            </div>
+        </div>
+        <div class="blok1">
+            <h4>Napisz do nas!</h4>
+            <div>
+                <textarea cols="30" rows="5" placeholder="Miejsce na twoją wiadomość..." required></textarea>
+            </div>
+        </div>
+        <div class="button">
+            <button type="reset" class="wyslij">Wyślij</button>
+        </div>
+    </fieldset>
+</div>
+</form>
+</body>
+</html>
