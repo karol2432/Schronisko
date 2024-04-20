@@ -1,7 +1,6 @@
 # Projekt-schronisko
 ### Strona schroniska zwierząt z lokalizacją, automatycznie zmieniającymi się zdjęciami, 
 ### interaktywnymi ankietami (jedno- i wielokrotnego wyboru) oraz formularzami (adopcyjnym i kontaktowym).
-### W projekcie wykorzystałem HTML, CSS i JavaScript. 
 
 
 
